@@ -4,9 +4,9 @@
 
 Landing page responsiva, mobile e desktop, desenvolvida pela [SSIT Consulting](https://ssitconsulting.com.br), para representar a empresa R&M Buildings e seus serviços.
 
-A página usa o serviço de contato por link de Whatsapp, o qual foi configurado pelo serviço disponibilizado pela UMBLER, https://www.contate.me/, e configurado na conta mazzulli live.
+A página usa o serviço de contato por link de Whatsapp, o qual foi configurado pelo serviço disponibilizado pela [UMBLER](https://www.contate.me/), e configurado na conta mazzulli live.
 
-Também tem disponível um link para acesso à página da empresa no Instagram, acessado pelo link https://instagram.com.
+Também tem disponível um link para acesso à página da empresa no Instagram, acessado pelo link [Instagram](https://instagram.com).
 
 
 # RECURSOS
