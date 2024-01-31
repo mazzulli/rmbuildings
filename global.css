@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif ;
+    font-weight: 300;
+}
+
+:root {
+    font-size: 62.5%;
+  
+    --text-color: #FFFFFF;
+    --sv-text-color: #0F171F;
+    --bg-and-text-color: #0F171F;
+    --bg-sv-color: linear-gradient(180deg, rgba(194, 193, 193, 0.00) 0%, #302e2e 80.5%);
+    --bg-contact-color: #FC540D;
+    --bg-logo-color: #F98C0C;
+    --wa-color: #38D700;  
+  }
+
+  body {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--bg-and-text-color);
+  }
+
+  .app {
+    padding: 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .app img {
+    width: 100%;
+    padding: 2.5rem 0rem;
+  }
+  
+  .app h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem 0;
+  }
+
+  .app h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+
+  .app p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+  }
+
+  .app span {
+    font-weight: 700;    
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--bg-contact-color);
+    margin-top: 2.5rem;
+    border-radius: 0 0 .8rem .8rem;
+    margin-bottom: 2.5rem;
+  }
+
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: -2rem;
+    width: 70%;
+    
+    background-color: var(--bg-logo-color);
+    color: #0F171F;
+    border-radius: .8rem;
+  }
+
+  .logo img {
+    width: 15rem;
+    height: 15rem;
+    color: #0F171F;    
+    margin-top: -2rem;
+  }
+
+  .logo h1 {
+    margin-top: -5rem;
+    font-family: 'Cinzel Decorative', serif; 
+    /* font-family: 'Orbitron', sans-serif; ok */
+    font-size: 3.5rem;
+    
+    border-bottom:solid 1px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .our-services {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-sv-color);
+    
+    padding: 0 2rem;
+  }
+
+  .quality {
+    display: flex;    
+    background: var(--bg-contact-color);
+    color: var(--text-color);
+    padding: 2.5rem 2rem;
+  }
+
+  .quality img{
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .clients {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-contact-color);
+    color: var(--text-color);
+    padding: 2rem 0 8rem;
+    
+  }
+
+  .clients .cards img {
+    width: 15rem;
+    height: 20rem;    
+  }
+
+  .clients .cards p {
+    font-size: 1.5rem;
+  }
+
+  .carousel .slide {
+    display: flex;
+    gap: 3rem;    
+    width: 80%;
+    margin: auto;
+  }
+
+  .carousel-item {
+    gap: 5rem;
+  }
+
+  .carousel-inner {
+    gap: 5rem;
+  }
+
+  .carousel-inner .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: .8rem;
+    background-color: var(--text-color);
+    color: var(--sv-text-color);
+    width: 35rem;
+    height: 40.5rem;    
+    padding: 0 5rem 2rem;    
+  }
+
+  .carousel-inner .cards span {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 0 2rem;    
+  } 
+
+  .visit {
+    display: flex;    
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    background: var(--bg-and-text-color);
+    color: var(--text-color);
+    padding: 0 2rem;
+  }
+
+  .contact {
+    display: flex;    
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    color: var(--text-color);
+    padding: 2rem 2rem;
+  }
+
+  .whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--wa-color);
+    margin-bottom: 4rem;
+   
+  }
+
+  .whats img {
+    width: 6rem;
+    height: 11rem;
+  }
+
+  .galery {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background: var(--bg-contact-color);    
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .galery .galeryphoto img {
+    width: 17rem;
+    height: 20rem;
+    padding-left: 2rem;
+
+  }
+
+  .galery img {
+    width: 6rem;
+    height: 11rem;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  footer span a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  footer span a:hover {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+  }
