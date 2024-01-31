@@ -2,7 +2,7 @@
 
 # R&M BUILDINGS WEB SITE
 
-Landing page responsiva, mobile e desktop, para representar a empresa R&M Buildings e seus serviços.
+Landing page responsiva, mobile e desktop, desenvolvida pela [SSIT Consulting](https://ssitconsulting.com.br), para representar a empresa R&M Buildings e seus serviços.
 
 A página usa o serviço de contato por link de Whatsapp, o qual foi configurado pelo serviço disponibilizado pela UMBLER, https://www.contate.me/, e configurado na conta mazzulli live.
 
